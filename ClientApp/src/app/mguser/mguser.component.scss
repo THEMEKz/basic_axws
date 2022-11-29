@@ -1,0 +1,114 @@
+.box-user{
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+    margin: 0.5%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    height: 930px;
+    width: 30%;
+    text-align: center;
+    // padding: ;
+}
+
+.box-detail{
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+    margin: 0.5%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    height: 930px;
+    width: 68%;
+    // padding-left: 50px;
+}
+
+
+.list-btn{
+    margin-left: 16px;
+    height: 800px;
+    // overflow-y: scroll;
+    // scrollbar-width: thin;
+    // scrollbar-width: inherit;
+    position: absolute;
+    width: 28%;
+    // border: 2px solid;
+    top: 140px;
+    // overflow-y: visible;
+}
+
+.list-btn button{
+
+    // border-bottom: 0.5px solid;
+    box-shadow: 0px 10px 6px 0px rgba(0, 0, 0, 0.02);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+    border-left: 4px solid;
+
+}
+
+.divMap{
+    position: absolute;
+    top: 300px;
+    bottom: 90px;
+    left: 33%;
+    right: 2%;
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.04);
+    // right: 30%;
+    // border: solid 1px;
+}
+
+.inputBox{
+    margin-left: 30px;
+}
+
+.p-button-danger{
+    position: absolute;
+    right: 40px;
+    width: 100px;
+}
+
+.inputBox input{
+    width: 400px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.input-btn{
+    position: absolute;
+    bottom: 30px;
+}
+
+.input-btn button{
+    margin-right: 20px;
+}
+
+.p-inputgroup {
+    margin: 10px;
+    position: absolute;
+    width: 29%;
+    background-color: rgb(65, 65, 65);
+    // padding: 5px;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+
+.numofdata{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    // text-align: center;
+}
+
+.p-inputgroup p-button{
+    margin-left: 92%;
+    padding-right: 10px;
+    // left: 50%;
+}
+
+.p-inputgroup input{
+    position: absolute;
+    width: 89%;
+}
+

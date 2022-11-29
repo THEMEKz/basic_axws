@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\axws.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\axws.csproj": {
+      "version": "3.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\axws.csproj",
+        "projectName": "axws",
+        "projectPath": "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\axws.csproj",
+        "packagesPath": "C:\\Users\\nanth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\NuGet.Config",
+          "C:\\Users\\nanth\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "http://atlasx.cdg.co.th:8081/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AtlasX.Engine": {
+              "target": "Package",
+              "version": "[1.3.5, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Standard.Licensing": {
+              "target": "Package",
+              "version": "[1.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

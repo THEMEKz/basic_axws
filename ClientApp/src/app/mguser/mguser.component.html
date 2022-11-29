@@ -1,0 +1,73 @@
+<div>
+    <div class="box-user">
+
+        <div>
+            <div class="col-12 md:col-4">
+                <div class="p-inputgroup">
+                    <input type="text" pInputText placeholder="ค้นหา" [(ngModel)]="search_word" (keyup)="searchInput()">
+                    <p-button icon="pi pi-user" (click)="toAdd()"></p-button>
+                </div>
+            </div>
+        </div>
+
+        <div class="numofdata">
+            <div *ngIf="!search_switch">
+                <h3>จำนวนผลลัพธ์ {{data.length}} รายการ</h3>
+            </div>
+
+            <div *ngIf="search_switch">
+                <h3>จำนวนผลลัพธ์ {{search_data.length}} รายการ</h3>
+            </div>
+        </div>
+
+        <div class="G">
+
+            <div *ngIf="!search_switch" class="list-btn">
+                <p-scrollPanel [style]="{width: '100%', height: '790px'}" styleClass="custombar1">
+                    <div *ngFor="let n of data;index as i">
+                        <button pButton pRipple type="button" icon="pi pi-user" label="{{n.name}} {{n.surname}}"
+                            class="p-button-text p-button-plain" (click)="toShowDetail(i)"></button>
+                    </div>
+                </p-scrollPanel>
+            </div>
+
+            <div *ngIf="search_switch" class="list-btn">
+                <p-scrollPanel [style]="{width: '100%', height: '790px'}" styleClass="custombar1">
+                    <div *ngFor="let ns of search_data;index as j">
+                        <button pButton pRipple type="button" icon="pi pi-user" label="{{ns.name}} {{ns.surname}}"
+                            class="p-button-text p-button-plain" (click)="toShowDetail2(j)"></button>
+                    </div>
+                </p-scrollPanel>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="box-detail">
+        <div class="inputBox">
+            <h2 *ngIf="mode=='add'">เพิ่มผู้ใช้งาน</h2>
+            <h2 *ngIf="mode=='update'"> แก้ไขผู้ใช้งาน</h2>
+            <button pButton pRipple type="button" label="ลบ" class="p-button-danger" (click)="toDelete()"></button>
+            <br>
+            <input type="text" placeholder="ชื่อ" pInputText [(ngModel)]="name"/> NAME
+            <br>
+            <input type="text" placeholder="สกุล" pInputText [(ngModel)]="surname"/> SURNAME
+            <br>
+            <input type="text" placeholder="เบอร์โทร" pInputText [(ngModel)]="mobile"/> MOBILE
+            <br>
+            <input type="text" placeholder="เพศ" pInputText [(ngModel)]="gender"/> GENDER
+            <br>
+
+            <div>
+                <div class="divMap" #divMap></div>
+            </div>
+
+            <div class="input-btn">
+                <button pButton pRipple type="button" label="บันทึก" (click)="toUpdate()"></button>
+                <button pButton pRipple type="button" label="ล้างค่า" class="p-button-outlined p-button-secondary"
+                    (click)="clear_btn()"></button>
+            </div>
+
+        </div>
+    </div>
+</div>

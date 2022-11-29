@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "f63IwpE/Iysj8xgweWRj9pQOQS4XDipdq0Spqv5ro7E=",
+  "Source": "axws",
+  "BasePath": "_content/axws",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "axws\\wwwroot",
+      "Source": "axws",
+      "ContentRoot": "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\wwwroot\\",
+      "BasePath": "_content/axws",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\wwwroot\\AdminPoly\\district.json",
+      "SourceId": "axws",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\wwwroot\\",
+      "BasePath": "_content/axws",
+      "RelativePath": "AdminPoly/district.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AdminPoly\\district.json"
+    },
+    {
+      "Identity": "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\wwwroot\\AdminPoly\\province.json",
+      "SourceId": "axws",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\wwwroot\\",
+      "BasePath": "_content/axws",
+      "RelativePath": "AdminPoly/province.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AdminPoly\\province.json"
+    },
+    {
+      "Identity": "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\wwwroot\\AdminPoly\\region.json",
+      "SourceId": "axws",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\wwwroot\\",
+      "BasePath": "_content/axws",
+      "RelativePath": "AdminPoly/region.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AdminPoly\\region.json"
+    },
+    {
+      "Identity": "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\wwwroot\\AdminPoly\\sub-district.json",
+      "SourceId": "axws",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nanth\\OneDrive\\Desktop\\axws\\ServerApp\\wwwroot\\",
+      "BasePath": "_content/axws",
+      "RelativePath": "AdminPoly/sub-district.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AdminPoly\\sub-district.json"
+    }
+  ]
+}
